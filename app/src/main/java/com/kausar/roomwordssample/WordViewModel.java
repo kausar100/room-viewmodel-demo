@@ -34,5 +34,9 @@ public class WordViewModel extends AndroidViewModel {
         mRepository.deleteAll();
     }
 
+    public void deleteWord(Word word) {
+        mRepository.deleteWord(word);
+    }
+
 
 }
