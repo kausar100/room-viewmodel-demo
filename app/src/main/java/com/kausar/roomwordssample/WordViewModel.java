@@ -38,5 +38,8 @@ public class WordViewModel extends AndroidViewModel {
         mRepository.deleteWord(word);
     }
 
+    public void update(Word word) {
+        mRepository.update(word);
+    }
 
 }
